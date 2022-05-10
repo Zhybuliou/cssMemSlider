@@ -54,4 +54,20 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
   }
+  .slider-wrapper .slider > *{
+    font-size:       1rem;
+    display:         inline-block;
+    vertical-align:  top;
+    height:          100%;
+    width:           100%;
+  }
+  .slider__t{
+      margin-top: 57%;
+  }
+  .slider__text{
+    margin-bottom: -2rem;
+    width: 5rem;
+    color: #fff;
+  }
+  
   
