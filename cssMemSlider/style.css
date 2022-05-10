@@ -15,3 +15,43 @@ body{
  
     background-color: black;
 }
+.slider-wrapper{
+    position: relative;
+    overflow: hidden;
+    height:   100%;
+  }
+   
+  .slider-wrapper .slider{
+    white-space: nowrap;
+    font-size:   0;
+    transition:  0.8s;
+  }
+  .slide1{
+    background-image: url('./assets/1.jpg');
+    border-radius: 0.3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .slide2{
+    background-image: url('./assets/2.jpg');
+    border-radius: 0.3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .slide3{
+    background-image: url('./assets/3.jpg');
+    border-radius: 0.3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .slide4{
+    background-image: url('./assets/4.jpg');
+    border-radius: 0.3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  
