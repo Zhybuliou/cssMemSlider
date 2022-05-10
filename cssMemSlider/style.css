@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+ 
+.wrapper{
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1.5rem;
+ 
+    max-width: 50rem;
+    max-height: 32rem;
+ 
+    background-color: black;
+}
