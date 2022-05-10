@@ -90,4 +90,38 @@ body{
     border: solid 0.1rem rgb(82, 95, 241);
   }
   
+  .slider-wrapper .nav > a > .nav-dot + .nav-dot{
+    background: rgba(115, 105, 255, 0.943);
+  }
+  .slider-wrapper .nav > a > .nav-dot:hover{
+    background: rgba(255, 255, 255, 0.9);
+    border:  solid 0.1rem rgba(255, 255, 255, 0.9);
+  }
+  .slider-wrapper .nav > a > .nav-dot:active{
+    background: #000000;
+  }
+  a:hover > .nav-dot{
+    background: rgba(255, 255, 255, 0.9);
+    border:  solid 0.1rem rgba(255, 255, 255, 0.9);
+  }
+  a:active > .nav-dot{
+    background: #000000;
+  }
+  .nav > a[href="#slide1"] > .nav-dot{
+    background: #000000;
+  }
+   
+  #slide1:target ~ .nav > a[href="#slide1"] > .nav-dot{ background: #000000; }
+  #slide2:target ~ .nav > a[href="#slide2"] > .nav-dot{ background: #000000; }
+  #slide3:target ~ .nav > a[href="#slide3"] > .nav-dot{ background: #000000; }
+  #slide4:target ~ .nav > a[href="#slide4"] > .nav-dot{ background: #000000; }
+   
+  #slide2:target ~ .nav > a[href="#slide1"] > .nav-dot{  background:rgb(82, 95, 241); }
+  #slide3:target ~ .nav > a[href="#slide1"] > .nav-dot{  background:rgb(82, 95, 241); }
+  #slide4:target ~ .nav > a[href="#slide1"] > .nav-dot{  background:rgb(82, 95, 241); }
+   
+  #slide1:target ~ .slider{ transform: translateX(0%); -webkit-transform: translateX(0%); }
+  #slide2:target ~ .slider{ transform: translateX(-100%); -webkit-transform: translateX(-100%); }
+  #slide3:target ~ .slider{ transform: translateX(-200%); -webkit-transform: translateX(-200%); }
+  #slide4:target ~ .slider{ transform: translateX(-300%); -webkit-transform: translateX(-300%); }
   
