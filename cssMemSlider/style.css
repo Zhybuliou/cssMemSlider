@@ -16,7 +16,6 @@ body{
     background-color: black;
 }
 .slider-wrapper{
-    position: relative;
     overflow: hidden;
     height:   100%;
   }
